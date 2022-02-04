@@ -33,7 +33,6 @@ a picture (titouan + credit to him email).
 
 ![Model](illustrations/illu_deep2.pdf)
 
-xfun::embed_file("illustrations/illu_deep2.pdf")
 
 
 ## How to test the method on any graph prediction problem
