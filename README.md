@@ -1,49 +1,20 @@
 # Graph prediction with fused Gromov-Wasserstein
 
-This repository contains a python implementation of the the supervised graph prediction method proposed in [] using PyTorch library and POT library (Python Optimal Transport).
+This repository contains a python implementation of the supervised learning method proposed in [Brogat-Motte et al., 2022](#references) using PyTorch library and POT library (Python Optimal Transport).
 
-- [Method description](#method-description)
-- [How to test the method on the synthetic graph prediction problem](#how-to-test-the-method-on-the-synthetic-graph-prediction-problem)
-- [How to test the method on any graph prediction problem](#how-to-test-the-method-on-any-graph-prediction-problem)
+This method aims providing a general method for solving (labeled) graph prediction problems. It takes advantage of recent advances in computational optimal transport. In particular, it makes use of the FGW distance ([Vayer et al., 2020](#references)) which is a natural metric for graph comparison.
+In particular, FGW distance allows to leverage a ground metric on the graphs's nodes. For example, depending on the task at hand, different distances between atoms can be used to defined the FGW distance over the molecular graphs space. All details about the method are provided in [Brogat-Motte et al., 2022](#references).
 
- 
-## Method description
+Two versions of the method are provided in this repository: a non-parametric approach and a neural network approach.
 
-![Model](illustrations/illu_deep2.jpg)
+## Quick start code example
 
-[Brogat-Motte et al., 2022](#references) introduce a framework to solve supervised labeled graph prediction problems by leveraging optimal transport tools.
+**Load data.**
 
-We provide here a short description of its functioning.
+```python
+pip install -r requirements.txt
+```
 
-**Fused Gromow-Wasserstein (FGW) distance.** The FGW distance has been proposed recently as an extension of Gromov-Wasserstein distance to measure the similarity between attributed
-graphs ([Vayer et al., 2020](#references)).
-
-Definition
-
-Example of molecular graphs space.
-
-a picture (titouan + credit to him email).
-
-**FGW as a loss.**
-
-**FGW barycentric graph prediction model.**
-
-**Two training methods.** [] proposed 1) a non-parametric and 2) a neural network approaches to train the proposed model. We advice to use the first method on small datasets, and the second method on big datasets.
-
-
-## Features
-
-The proposed method benefits from several interesting features.
-
-![Model](illustrations/illu_deep_gw.jpg)
-
-
-
-## How to test the method on your graph prediction problem
-
-dependencies
-
-step-by-step
 
 ## References
 
