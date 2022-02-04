@@ -9,12 +9,14 @@ This repository contains a python implementation of the the supervised graph pre
  
 ## Method description
 
-[Brogat-Motte et al., 2021](#references) introduce a framework to solve supervised labeled graph prediction problems by leveraging optimal transport tools.
+![Model](illustrations/illu_deep2.jpg)
+
+[Brogat-Motte et al., 2022](#references) introduce a framework to solve supervised labeled graph prediction problems by leveraging optimal transport tools.
 
 We provide here a short description of its functioning.
 
-**Fused Gromow-Wasserstein (FGW) distance.** The FGW distance has been proposed recently as an extension of Gromov-Wasserstein distance to measure the imilarity between attributed
-graphs [Vayer et al., 2020](#references).
+**Fused Gromow-Wasserstein (FGW) distance.** The FGW distance has been proposed recently as an extension of Gromov-Wasserstein distance to measure the similarity between attributed
+graphs ([Vayer et al., 2020](#references)).
 
 Definition
 
@@ -29,13 +31,15 @@ a picture (titouan + credit to him email).
 **Two training methods.** [] proposed 1) a non-parametric and 2) a neural network approaches to train the proposed model. We advice to use the first method on small datasets, and the second method on big datasets.
 
 
-## How to test the method on the synthetic graph prediction problem
+## Features
 
-![Model](illustrations/illu_deep2.pdf)
+The proposed method benefits from several interesting features.
+
+![Model](illustrations/illu_deep_gw.jpg)
 
 
 
-## How to test the method on any graph prediction problem
+## How to test the method on your graph prediction problem
 
 dependencies
 
