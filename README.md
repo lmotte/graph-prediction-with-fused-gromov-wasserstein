@@ -2,15 +2,24 @@
 
 This repository contains a python implementation of the the supervised graph prediction method proposed in [] using PyTorch library and POT library (Python Optimal Transport).
 
+- [Method description](#method-description)
+- [How to test the method on the synthetic graph prediction problem](#how-to-test-the-method-on-the-synthetic-graph-prediction-problem)
+
+ 
 ## Method description
 
 [] introduce a framework to solve supervised labeled graph prediction problems by leveraging optimal transport tools.
 
-Let's explain how it works.
+We provide here a short description of its functioning.
 
-**Fused Gromow-Wasserstein (FGW) distance.**
+**Fused Gromow-Wasserstein (FGW) distance.** The FGW distance has been proposed recently as an extension of Gromov-Wasserstein distance to measure the imilarity between attributed
+graphs (Vayer et al., 2020)
 
-Definition + a picture (titouan + credit to him email).
+Definition
+
+Example of molecular graphs space.
+
+a picture (titouan + credit to him email).
 
 **FGW as a loss.**
 
