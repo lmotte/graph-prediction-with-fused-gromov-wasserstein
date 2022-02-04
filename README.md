@@ -31,7 +31,7 @@ a picture (titouan + credit to him email).
 
 ## How to test the method on the synthetic graph prediction problem
 
-![Model](https://github.com/lmotte/graph-prediction-with-fused-gromov-wasserstein.git/illustrations/illu_deep2.pdf)
+![Model](https://github.com/lmotte/graph-prediction-with-fused-gromov-wasserstein/blob/main/illustrations/illu_deep2.pdf)
 
 ## How to test the method on any graph prediction problem
 
