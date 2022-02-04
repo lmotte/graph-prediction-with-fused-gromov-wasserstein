@@ -9,8 +9,13 @@ Two versions of the method are provided in this repository: a non-parametric app
 
 ## Quick start code example
 
-**Load data.**
+**Load data**
+```python
+for i in range(n):
+    print(ok)
+```
 
+### Load data
 ```python
 for i in range(n):
     print(ok)
