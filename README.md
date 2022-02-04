@@ -12,7 +12,8 @@ Two versions of the method are provided in this repository: a non-parametric app
 **Load data.**
 
 ```python
-pip install -r requirements.txt
+for i in range(n):
+    print(ok)
 ```
 
 
