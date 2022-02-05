@@ -80,6 +80,11 @@ Plotting the true and learned map
 Plotting the learned templates
 ```
 
+Printing the objective 
+
+![true](illustrations/training_loss.jpg)
+
+
 You can plot the learned map (See in test.py how to do it)
 
 ![true](illustrations/true.jpg)
