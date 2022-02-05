@@ -62,7 +62,7 @@ for i in range(len(X_te)):
 print(f'FGW mean test loss {mean_loss_te / len(X_te)}')
 ```
 
-Running test.py you should obtain the following outputs.
+You should obtain the following results.
 
 ```
 Loading dataset
@@ -80,7 +80,7 @@ Plotting the true and learned map
 Plotting the learned templates
 ```
 
-You can now plot the learned map (See in test.py how to do it)
+You can plot the learned map (See in test.py how to do it)
 
 ![true](illustrations/true.jpg)
 
@@ -88,7 +88,7 @@ and compare it to the true map.
 
 ![learned](illustrations/learned.jpg)
 
-Moreover, it is possible to plot the graph templates learned during the training step. We plot them in the simplex along with the learned weights function.
+Moreover, it is possible to plot the graph templates learned during the training step. We plot them in the simplex along with the learned weights function just below.
 
 <p align="center">
 <img src="illustrations/simplex3.jpg" width=300>
