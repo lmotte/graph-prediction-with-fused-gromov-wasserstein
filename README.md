@@ -80,10 +80,11 @@ Plotting the true and learned map
 Plotting the learned templates
 ```
 
-Printing the objective 
+Plotting the optimization of the objective w.r.t the number of epochs.
 
-![true](illustrations/training_loss.jpg)
-
+<p align="center">
+<img src="illustrations/training_loss.jpg" width=300>
+</p>
 
 You can plot the learned map (See in test.py how to do it)
 
