@@ -62,7 +62,7 @@ for i in range(len(X_te)):
 print(f'FGW mean test loss {mean_loss_te / len(X_te)}')
 ```
 
-You should obtain the following results.
+Running test.py you should obtain the following outputs.
 
 ```
 Loading dataset
