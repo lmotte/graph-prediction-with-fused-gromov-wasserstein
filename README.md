@@ -90,7 +90,7 @@ and compare it to the true map.
 
 Moreover, it is possible to plot the graph templates learned during the training step. We plot them in the simplex along with the learned weights function.
 
-<img src="illustrations/simplex3.jpg" width=300>
+<img src="illustrations/simplex3.jpg" width=300, align=middle">
 
 ## References
 
