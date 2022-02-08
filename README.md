@@ -82,11 +82,11 @@ Plotting the learned templates
 
 You can plot the learned map (See in test.py how to do it)
 
-![true](illustrations/true.jpg)
+![true](illustrations/learned.jpg)
 
 and compare it to the true map.
 
-![learned](illustrations/learned.jpg)
+![learned](illustrations/true.jpg)
 
 Moreover, it is possible to plot the graph templates learned during the training step. We plot them in the simplex along with the learned weights function just below.
 
