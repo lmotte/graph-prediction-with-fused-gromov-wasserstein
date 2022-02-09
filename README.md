@@ -16,7 +16,7 @@ X_tr, Y_tr = create_data_train(n_tr)
 X_te, Y_te = create_data_test()
 ```
 
-**Synthetic dataset** If you are using the provided dataset, you can plot the true map (See in test.py how to do it) that we want to learn.
+**Synthetic dataset.** In the case you are using the provided dataset, the true map is a mapping from the real numbers greater than one to the space of labeled graphs. You can plot as below (See in test.py how to do it). This is the map we aim to estimate thanks to the training data.
 
 ![learned](illustrations/true.jpg)
 
@@ -84,7 +84,7 @@ Plotting the true and learned map
 Plotting the learned templates
 ```
 
-You can plot the learned map (See in test.py how to do it) to compare it to the true map plotted above.
+You can plot the learned map (See in test.py how to do it) and compare it to the true map plotted above.
 
 ![true](illustrations/learned.jpg)
 
