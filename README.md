@@ -16,6 +16,10 @@ X_tr, Y_tr = create_data_train(n_tr)
 X_te, Y_te = create_data_test()
 ```
 
+**Synthetic dataset** If you are using the provided dataset, you can plot the true map (See in test.py how to do it) that we want to learn.
+
+![learned](illustrations/true.jpg)
+
 **Convert data to torch.**
 ```python
 import torch
@@ -80,19 +84,20 @@ Plotting the true and learned map
 Plotting the learned templates
 ```
 
-You can plot the learned map (See in test.py how to do it)
+You can plot the learned map (See in test.py how to do it) to compare it to the true map plotted above.
 
 ![true](illustrations/learned.jpg)
 
-and compare it to the true map.
-
-![learned](illustrations/true.jpg)
-
-Moreover, it is possible to plot the graph templates learned during the training step. We plot them in the simplex along with the learned weights function just below.
+Moreover, it is possible to plot the graph templates learned during the training step. We represent them in the simplex along with the learned weights function just below.
 
 <p align="center">
 <img src="illustrations/simplex3.jpg" width=300>
 </p>
+
+
+## Acknowledgements
+
+The first and last authors are funded by the French National Research Agency (ANR) through ANR-18-CE23-0014 APi (Apprivoiser la Pré-image) and the Télécom Paris Chair DSAIDIS. 
 
 ## References
 

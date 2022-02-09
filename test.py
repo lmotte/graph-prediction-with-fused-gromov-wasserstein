@@ -33,7 +33,7 @@ clf.nb_node_template = 5
 # 4) Choose training parameters
 clf.max_iter = 5
 clf.n_out = 40
-clf.n_epochs = 200
+clf.n_epochs = 600
 clf.lr = 0.01
 clf.alpha = 0.5
 
