@@ -5,7 +5,7 @@ This repository contains a Python implementation of the supervised learning meth
 This method aims at providing a general method for solving (labeled) graph prediction problems. It takes advantage of recent advances in computational optimal transport to handle the pre-image problem over graphs. It makes use of the FGW distance ([Vayer et al., 2020](#references)) which is a natural metric for graph comparison.
 In particular, FGW distance allows to leverage a ground metric on the graphs's nodes. For example, depending on the task at hand, different distances between atoms can be used to defined the FGW distance over the molecular graphs space. A complete description of the method is provided in [Brogat-Motte et al., 2022](#references).
 
-## Quick start code example
+## Quick start
 
 **Load a training dataset.** Load training data, namely couples (x, y) where y should be a couple (C, F) such that C is an adjacency matrices with size n x n for a graph with n nodes, and F is a matrix of size n x d containing the nodes's features which are vectors of dimension d. The dataset can be composed of graphs with various sizes. We provide in this repository a synthetic labeled graph prediction dataset.
 ```python
